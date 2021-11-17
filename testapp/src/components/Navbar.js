@@ -1,27 +1,22 @@
 import React from "react"
 import Navbar from "./Navbar"
-import MenuButton from "./MenuButton"
+
 
 function Navbar() {
 
 
-
     return (
-        <div style={styleDiv}>
-            <div style={styleLogo}>
-                <a href="/">
-                    <img src=" " alt="Bievenidos"/>
-                </a>
-            </div>
-            <nav>
+        <><div></div><><a href="/">
+            <img src=" " alt="Bievenidos" />
+        </a>
+        <nav>
                 <ul style={styleMenu}>
-                    <li a href="/" style={styleLinks}>Inicio</li>
-                    <li a href="/" style={styleLinks}>Producto</li>
-                    <li a href="/" style={styleLinks}>Nosotros</li>
+                    <li a href="/">Inicio</li>
+                    <li a href="/">Producto</li>
+                    <li a href="/">Nosotros</li>
                 </ul>
-            </nav> 
-        </div>
-    );
+            </nav>
+            )
 }
 
 export default Navbar
