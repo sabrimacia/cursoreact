@@ -6,16 +6,15 @@ function Navbar() {
 
 
     return (
-        <><div></div><><a href="/">
+        <><div></div><a href="/">
             <img src=" " alt="Bievenidos" />
-        </a>
-        <nav>
+        </a><nav>
                 <ul style={styleMenu}>
                     <li a href="/">Inicio</li>
                     <li a href="/">Producto</li>
                     <li a href="/">Nosotros</li>
                 </ul>
-            </nav>
+            </nav></>
             )
 }
 
